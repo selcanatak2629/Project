@@ -1,19 +1,36 @@
 .container{
-    border-bottom: 5px solid rgb(209, 205, 205);
+    border-bottom: 5px solid rgb(241, 238, 238);
     min-height: 10vh;
 }
 .btn{
+    min-width: 15%;
    margin-left: 10px;
+   background-color: rgb(241, 238, 238);
+   border: 2px solid rgb(104, 160, 245);
+ text-align: center;
+   
+}
+.form-control{
+    min-width: 40%;
+    margin-right: 15px;
+    border: 1px;
+   background-color: rgb(241, 238, 238);
+   border: 2px solid rgb(241, 238, 238);
 }
 .header{
-    
-    background-image: url('/assets/images/image1.jpg');
+    background-image: url('/assets/images/image6.jpg');
     max-width: 100vw !important;
-    min-height: 200px;
+    min-height: 300px;
     height: min-content;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .nav-link{
-    color: cornsilk;
     font-size: 30px;
-    
+    color: rgb(241, 238, 238);
+}
+form{
+    margin-right: 50px;
+
 }

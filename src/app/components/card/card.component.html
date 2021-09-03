@@ -1,11 +1,17 @@
-<div class="card w-100">
-  <div class="card-header">
-    <h5 class="card-title">Otel İsmi</h5>
+<div *ngFor="let product of products" class="card w-100">
+  <div class="row card-header">
+    <div  class="col-10">
+      <h5 class="card-title">{{product.name}}</h5>
+    </div>
+    <div class="col-2">
+      <a href="" id="dot">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+          <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+        </svg>
+      </a>
+    </div>
   </div>
- 
-    <img class="img-fluid" src="assets/images/image1.jpg" />
-  
-
+    <img class="img-fluid" src="{{product.image}}" />
   <div class="card-footer">
     <div class="row">
       <div class="col-2">
@@ -51,7 +57,7 @@
         </svg>
       </div>
       <div class="row-6">
-        <h5>konum</h5>
+        <h5>{{product.location}}</h5>
       </div>
     </div>
   </div>

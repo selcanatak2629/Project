@@ -1,22 +1,6 @@
-
-    <div class="card ">
-        <div class="card-body text-center">
-          <p class="card-text">OTEL</p>
-        </div>
-      </div>
-      <div class="card ">
-        <div class="card-body text-center">
-          <p class="card-text">TUR</p>
-        </div>
-      </div>
-      <div class="card ">
-        <div class="card-body text-center">
-          <p class="card-text">UÇAK BİLETİ</p>
-        </div>
-      </div>
-      <div class="card ">
-        <div class="card-body text-center">
-          <p class="card-text">GÜNÜN FIRSATLARI</p>
-        </div>
-      </div>
-
+<div class="container">
+<div *ngFor="let product of products" class="card">
+  <div class="card-body text-center">
+    <p class="card-text"> {{product.name}} </p>
+  </div>
+</div>

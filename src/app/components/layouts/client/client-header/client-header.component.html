@@ -1,15 +1,17 @@
-
-
-    <nav class="navbar header">
-        <div class="container">  <!--css de var mı bak-->
-          <a href="" class="nav-link"> TATİL REHBERİM</a>
-          <form class="d-flex">
-            <input  class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn " type="submit"> Ara </button>
-            <button class="btn "type="submit"> Giriş Yap </button>
-            <button class="btn " type="submit"> Kayıt Ol </button>
-            <button class="btn " type="submit"> Favoriler </button>
-        
-        </form>
-        </div>
-      </nav>
+<nav class="navbar header">
+  <div class="container">
+    <!--css de var mı bak-->
+    <a class="nav-link"> {{ title }} </a>
+    <form class="d-flex">
+      <input
+        class="form-control me-2"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+      />
+      <button *ngFor="let product of products" class="btn" type="submit">
+        {{product.name}}
+      </button>
+    </form>
+  </div>
+</nav>
