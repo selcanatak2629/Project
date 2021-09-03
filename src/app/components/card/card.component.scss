@@ -1,6 +1,6 @@
 .card{
-
     border-radius: 10px;
+    margin-bottom: 5px;
 }
 .card-header{
  text-align: center;
@@ -10,4 +10,7 @@
  text-align: center;
  color: blue;
 }
-
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}

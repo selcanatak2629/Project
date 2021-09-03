@@ -1,9 +1,19 @@
 .container{
-    background-color: cadetblue;
+    border-bottom: 5px solid rgb(209, 205, 205);
     min-height: 10vh;
 }
 .btn{
    margin-left: 10px;
 }
-
-
+.header{
+    
+    background-image: url('/assets/images/image1.jpg');
+    max-width: 100vw !important;
+    min-height: 200px;
+    height: min-content;
+}
+.nav-link{
+    color: cornsilk;
+    font-size: 30px;
+    
+}

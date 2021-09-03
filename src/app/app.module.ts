@@ -11,7 +11,7 @@ import { TravelplannerComponent } from './components/travelplanner/travelplanner
 import { SliderComponent } from './components/slider/slider.component';
 import { FilterComponent } from './components/filter/filter.component';
 import { CardComponent } from './components/card/card.component';
-import { NavComponent } from './components/nav/nav.component';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +24,7 @@ import { NavComponent } from './components/nav/nav.component';
     SliderComponent,
     FilterComponent,
     CardComponent,
-    NavComponent
+
   ],
   imports: [
     BrowserModule,
