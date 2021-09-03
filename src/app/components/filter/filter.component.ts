@@ -10,10 +10,13 @@ export class FilterComponent implements OnInit {
   constructor() { }
 
   products:any[]=[
-    {id:1, name:" OTEL"},
-    {id:2, name:" TUR" },
-    {id:3, name:" UÇAK BİLETİ" },
-    {id:4, name:" GÜNÜN FIRSSATLARI" }
+    {id:1, name:" OTELLER"},
+    {id:2, name:" TURLAR" },
+    {id:3, name:" UÇAK BİLETLERİ" },
+    {id:4, name:" GÜNÜN FIRSSATLARI" },
+    {id:5, name:" EN POPÜLER ŞEHİRLER" },
+    {id:6, name:" EN POPÜLER TATİL ROTALARI" }
+
   ]
   ngOnInit(): void {
   }
