@@ -6,11 +6,23 @@
  text-align: left;
 }
 
-.row-6{
- text-align: center;
- color: blue;
+.row-6 h5{
+ text-align: left;
+ font-size: 15px;
+ color: rgb(7, 87, 172);
+}
+.currentColor{
+ color: rgb(7, 87, 172);
+
 }
 .img-fluid{
     max-width: 100%;
     height: auto;
+}
+.bi-geo-alt-fill{
+ color: rgb(7, 87, 172);
+
+}
+.bi-heart{
+    color: red;
 }
