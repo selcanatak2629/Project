@@ -11,6 +11,7 @@ import { TravelplannerComponent } from './components/travelplanner/travelplanner
 import { SliderComponent } from './components/slider/slider.component';
 import { FilterComponent } from './components/filter/filter.component';
 import { CardComponent } from './components/card/card.component';
+import { ClientFooterComponent } from './components/layouts/client/client-footer/client-footer.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { CardComponent } from './components/card/card.component';
     SliderComponent,
     FilterComponent,
     CardComponent,
+    ClientFooterComponent,
 
   ],
   imports: [
